@@ -1,0 +1,10 @@
+[package]
+name = "generate-terraform"
+version = "0.1.0"
+authors = ["Bruno Tavares <bruno.exz@gmail.com>"]
+
+[dependencies]
+hyper = "0.5.1"
+
+[dependencies.cloudflare]
+git = "https://github.com/bltavares/cloudflare-rs"
